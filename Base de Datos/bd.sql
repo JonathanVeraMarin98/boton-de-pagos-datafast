@@ -1,6 +1,6 @@
 CREATE DATABASE IF NOT EXISTS datafast;
 USE datafast;
-
+  
 -- Tabla principal
 CREATE TABLE IF NOT EXISTS datos (
     id INT AUTO_INCREMENT PRIMARY KEY,
