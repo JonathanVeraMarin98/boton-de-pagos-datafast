@@ -191,7 +191,7 @@
        var PEntrega = $("#PEntrega").val();
 
        
-        window.location="https://pasarelapago.000webhostapp.com/Valores.php?amount=<?php echo $x;?>&nombre="
+        window.location="http://localhost/datafast/Valores.php?amount=<?php echo $x;?>&nombre="
                 +nombre+"&apellido="+apellido+"&email="+email+"&cedula="+cedula+
                 "&segundonombre="+segundonombre+"&telefono="+telefono+"&DEntrega="+DEntrega+
                 "&PEntrega="+PEntrega+"&nproducto=<?php echo $nproducto;?>&dproducto=<?php echo $dproducto;?>&pproducto=<?php echo $pproducto;?>&cproducto=<?php echo $cproducto;?>";
@@ -262,15 +262,6 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-23581568-13');
-</script>
 </body>
 </html>
 

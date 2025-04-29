@@ -173,14 +173,14 @@
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-            window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+            window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
         }
         else if(x==b){
             var nombre = "Pro";
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-         window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+         window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
 
         }
         else if(x==c){
@@ -188,7 +188,7 @@
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-           window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+           window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
             
         }
         else if(x!==a || x!==b || x!==c){
@@ -196,7 +196,7 @@
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-           window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+           window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
             
         }
             
@@ -225,14 +225,14 @@
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-            window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+            window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
         }
         else if(x==b){
             var nombre = "Pro";
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-         window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+         window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
 
         }
         else if(x==c){
@@ -240,7 +240,7 @@
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-           window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+           window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
             
         }
         else if(x!==a || x!==b || x!==c){
@@ -248,7 +248,7 @@
             var descripcion = $('#concepto').val();
             var precio = x;
             var cantidad = 1;
-           window.location="https://pasarelapago.000webhostapp.com/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
+           window.location="http://localhost/datafast/datos.php?amount="+x+"&nombreproducto="+nombre+"&descripcion="+descripcion+"&precio="+precio+"&cantidad="+cantidad;
             
         }
              
@@ -317,15 +317,7 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-23581568-13');
-</script>
     
 
 </body>

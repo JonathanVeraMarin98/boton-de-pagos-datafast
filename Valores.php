@@ -449,7 +449,7 @@ Codepen: https://codepen.io/supah/
     <div class="pago">
           <script src="https://test.oppwa.com/v1/paymentWidgets.js?checkoutId=<?php echo $checkoutId?>"></script>
                 
-               <form action="https://pasarelapago.000webhostapp.com/confimacion.php" class="paymentWidgets" data-brands="VISA MASTER AMEX"></form>
+               <form action="http://localhost/datafast/confimacion.php" class="paymentWidgets" data-brands="VISA MASTER AMEX"></form>
     </div> 
         </div>
               

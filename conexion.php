@@ -1,7 +1,7 @@
 <?php
 
 
-$conexion = mysqli_connect('localhost','id13746186_admin','v8*xi*OdY(x~{)hH','id13746186_datafast')or die ("No se ha podido conectar al servidor de Base de datos");
+$conexion = mysqli_connect('localhost','root','','datafast')or die ("No se ha podido conectar al servidor de Base de datos");
 
 if (!$conexion) {
     echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
